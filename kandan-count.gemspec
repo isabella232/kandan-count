@@ -18,9 +18,9 @@ Gem::Specification.new do |gem|
 
   gem.post_install_message = <<-DESC
 
-  Welcome to Kandan, the slickest chat app out there!
+  \e[32mWelcome to Kandan, the slickest chat app out there!
   
-  Don't forget to run kandan:bootstrap
+  Don't forget to run kandan:bootstrap\e[0m
 
 DESC
 
