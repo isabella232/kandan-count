@@ -7,8 +7,7 @@ Gem::Specification.new do |gem|
   gem.description   = %q{Gem to count Kandan installations}
   gem.summary       = %q{Gem to count Kandan installations}
   gem.homepage      = "https://github.com/kandanapp/kandan-count"
-  gem.license       = "GNU AFFERO GENERAL PUBLIC LICENSE"
-
+  
   gem.files         = `git ls-files`.split("\n")
   gem.name          = "kandan-count"
   gem.require_paths = ["lib"]
